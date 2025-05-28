@@ -1,0 +1,8 @@
+GameProject {
+ ID "GlobalConflictsTraining"
+ GUID "6579047172DCEBB4"
+ TITLE "Global Conflicts Training"
+ Dependencies {
+  "0315131312150202" "6156F2F771D5D73D" "623555110E2B2CA0" "58D0FB3206B6F859"
+ }
+}
