@@ -1,0 +1,155 @@
+Tank M113A2_APC1 : "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A2_APC.et" {
+ coords 1427.299 38 2903.634
+ angles 0 -103.491 0
+}
+Vehicle LAV1 : "{0FBF8F010F81A4E5}Prefabs/Vehicles/Wheeled/LAV25/LAV25.et" {
+ coords 1426.513 38 2907.841
+ angles 0 -105.401 0
+}
+Vehicle S1203_transport_red1 : "{11A28C90DB40318D}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_red.et" {
+ coords 1466.608 39 2809.608
+ angles 0 -67.491 0
+}
+Vehicle S105_randomized1 : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
+ coords 1488.091 39 2795.421
+ angles 0 -51.878 0
+}
+Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ coords 1261.675 38 2904.712
+ angles 0 -101.624 0
+}
+$grp Vehicle : "{38527BF34A02C3C7}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat_M134.et" {
+ RHIB_Gunboat_M1 {
+  coords 1456.996 0 1781.287
+  angles 0 31.834 0
+ }
+ RHIB_Gunboat_M3 {
+  coords 1468.171 0 1774.909
+  angles 0 31.834 0
+ }
+ RHIB_Gunboat_M2 {
+  coords 1462.32 0 1778.216
+  angles 0 31.834 0
+ }
+}
+Vehicle M1025_armed_M2HB3 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ coords 1421.444 38 2934.044
+ angles 0 -103.121 0
+}
+RHS_Tank Tank_T1 : "{48BB423641D40E77}Prefabs/Vehicles/Tracked/T14/Tank_T14.et" {
+ coords 1431.061 38 2883.685
+ angles 0 -103.551 0
+}
+Vehicle S1203_transport_yellow1 : "{4C79EB5FADB89B7A}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_yellow.et" {
+ coords 1442.748 38.084 2896.835
+}
+Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
+ coords 1457.495 38 2916.647
+ angles 0 -54.976 0
+}
+Vehicle JLTV_OGPK_M134_Black1 : "{5B155FFDBEE3B2AE}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M134/JLTV_OGPK_M134_Black.et" {
+ coords 1423.968 38 2920.035
+ angles 0 -103.018 0
+}
+Tank M1A1_TUSK1 : "{8C56ABBA9DFE03D8}Prefabs/Vehicles/Tracked/M1A1/M1A1_TUSK.et" {
+ coords 1433.171 38 2876.767
+ angles 0 -103.52 0
+}
+Vehicle M923A1 : "{9A0D72816DFFDB7F}Prefabs/Vehicles/Wheeled/M923A1/M923A1.et" {
+ coords 1444.25 38 2875.165
+ angles 0 63.163 0
+}
+$grp Vehicle : "{9AEDF323A812F9ED}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_AFRF.et" {
+ BRDM2_AFRF1 {
+  coords 1424.781 33.125 2915.022
+ }
+ BRDM2_AFRF2 {
+  coords 1424.793 38 2916.598
+  angles 0 -103.854 0
+ }
+}
+Vehicle M923A1_repair1 : "{A042ACE5C2B13206}Prefabs/Vehicles/Wheeled/M923A1/M923A1_repair.et" {
+ coords 1259.498 38 2913.136
+ angles 0 -99.642 0
+}
+Vehicle UAZ469_covered_CIV_red1 : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et" {
+ coords 1467.833 38.934 2834.206
+}
+Vehicle Stryker_MGS1 : "{A6783FAA5D516D68}Prefabs/Vehicles/Wheeled/Stryker/M1128/Stryker_MGS.et" {
+ coords 1429.826 38 2889.23
+ angles 0 -104.663 0
+}
+Vehicle S105_green1 : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+ coords 1466.133 39 2779.456
+}
+Vehicle Stryker_Dragoon_Cage_Tan1 : "{B139673755B7015E}Prefabs/Vehicles/Wheeled/Stryker/M1296/Stryker_Dragoon_Cage_Tan.et" {
+ coords 1428.467 38 2894.272
+ angles 0 -103.771 0
+}
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR2 {
+  coords 1424.973 38 2912.508
+  angles 0 -105.293 0
+ }
+ BTR3 {
+  coords 1491.963 39 2768.37
+  angles 0 10.914 0
+ }
+ BTR4 {
+  coords 1452.013 38.892 2839.443
+ }
+}
+RHS_Tank Tank_2S1 : "{D8136D90BE12445F}Prefabs/Vehicles/Tracked/2S1/Tank_2S1.et" {
+ coords 1427.376 38 2898.675
+ angles 0 -105.208 0
+}
+$grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
+ RHIB_Gunboat2 {
+  coords 1479.731 0 1768.256
+  angles 0 30.415 0
+ }
+ RHIB_Gunboat1 {
+  coords 1474.346 0 1771.297
+  angles 0 30.415 0
+ }
+ RHIB_Gunboat3 {
+  coords 1485.358 0 1765.317
+  angles 0 30.415 0
+ }
+}
+Vehicle M997_maxi_ambulance_MERDC2_Tutorial1 : "{EB581271433CE0E9}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC2_Tutorial.et" {
+ coords 1459.472 38.041 2865.699
+ angles 0 -71.713 0
+}
+Vehicle M923A1_ammo_MERDC1 : "{EC657C9B3C73E192}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo_MERDC.et" {
+ coords 1462.335 38 2892.12
+}
+Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ coords 1420.491 38 2928.707
+ angles 0 -103.555 0
+}
+$grp Vehicle : "{F22B338BFAC1FD68}Prefabs/Vehicles/Wheeled/Motorbike/motorbike.et" {
+ motorbike2 {
+  coords 1406.531 38 2931.796
+  angles 0 -159.854 0
+ }
+ motorbike3 {
+  coords 1407.974 38 2932.168
+  angles 0 -159.854 0
+ }
+ motorbike4 {
+  coords 1409.499 38 2932.525
+  angles 0 -159.854 0
+ }
+}
+Vehicle M151A1 : "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et" {
+ coords 1482.662 39 2824.636
+}
+Vehicle M151A2_M2HB2 : "{F6B23D17D5067C11}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB.et" {
+ coords 1420.319 38 2938.805
+ angles 0 -132.202 0
+}
+Vehicle Ural4320_ZU1 : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
+ coords 1421.415 38 2924.068
+ angles 0 -103.584 0
+}

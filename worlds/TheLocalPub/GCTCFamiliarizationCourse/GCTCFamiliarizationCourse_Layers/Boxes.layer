@@ -1,0 +1,688 @@
+GenericEntity Parachutebox : "{414981D81357CBFE}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V6.et" {
+ components {
+  SCR_SoundDataComponent "{5C53391603B5CF41}" {
+   Enabled 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   UseCapacityCoefficient 0
+   CapacityCoefficient 100000
+   MaxCumulativeVolume 10000
+   MultiSlots {
+    MultiSlotConfiguration "{66E327B031273DEF}" {
+     SlotTemplate InventoryStorageSlot chutes {
+      Prefab "{23DA0939B0158024}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok_Parachute.et"
+     }
+     NumSlots 50
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+  }
+ }
+ coords 1182.53 2368.494 2828.567
+}
+$grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_US_01_V1.et" {
+ ExplosiveBox {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000000
+    MultiSlots {
+     MultiSlotConfiguration "{66E332C7026D634F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C76AAE3C6B}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
+      }
+      NumSlots 25
+     }
+     MultiSlotConfiguration "{66E332C77E96FE5F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C75B90A238}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C75FA9921E}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C748571A39}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C74149AE25}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C7B3916076}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{66E332C3AAB4FFA0}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{E4C9F0A4090CFE4D}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14.et"
+      }
+      NumSlots 100
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 1403.371 38 2935.443
+  angles 0 -13.227 0
+ }
+ VehicleBox {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000000
+    MultiSlots {
+     MultiSlotConfiguration "{66E332C7026D634F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{12D5AD21E383B768}Prefabs/Items/Fuel/Jerrycan_01/Jerrycan_01_item.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C76AAE3C6B}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{33B2DFDCD0EBA3DB}Prefabs/Items/Equipment/Kits/RepairKit_01/RepairKit_01_wrench.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{66E332C77E96FE5F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C75B90A238}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C75FA9921E}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C748571A39}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C74149AE25}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C7B3916076}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      }
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 1264.221 37.974 2918.938
+  angles 0 -13.227 0
+ }
+ WireEtoolBox {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000000
+    MultiSlots {
+     MultiSlotConfiguration "{66E332C7026D634F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C76AAE3C6B}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C77E96FE5F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{49FFE8F373F55960}Prefabs/Weapons/Explosives/Mine_M15AT/Mine_M15AT.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C75B90A238}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C75FA9921E}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C748571A39}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C74149AE25}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C7B3916076}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      }
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 1156.626 37.557 2928.493
+  angles 0 -13.227 0
+ }
+ MedicalBox {
+  components {
+   PK_EntityProtectorComponent "{66E332C6C4973699}" {
+   }
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000000
+    MultiSlots {
+     MultiSlotConfiguration "{66E332C7026D634F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C76AAE3C6B}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C77E96FE5F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C75B90A238}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C75FA9921E}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{66E332C748571A39}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9BBA766CD869002C}Prefabs/Items/Medicine/PhenylephrineInjection/ACE_Medical_PhenylephrineInjection.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C74149AE25}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{02DD34077F51F65E}Prefabs/Items/Medicine/NaloxoneInjection/ACE_Medical_NaloxoneInjection.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C7B3916076}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{D0434D5215B54181}Prefabs/Items/Medicine/MetoprololInjection/ACE_Medical_MetoprololInjection.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C6850A15A9}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{58CF3AB87C441295}Prefabs/Items/Medicine/AmmoniumCarbonatePackage/ACE_Medical_AmmoniumCarbonatePackage.et"
+      }
+      NumSlots 20
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 1424.454 38.13 2976.535
+  angles 0 -13.227 0
+ }
+ RadioBox {
+  components {
+   PK_EntityProtectorComponent "{66E332C6C03E5A90}" {
+   }
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000000
+    MultiSlots {
+     MultiSlotConfiguration "{66E332C7026D634F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C76AAE3C6B}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{340C133625BB688E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Multi.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C77E96FE5F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{5D948A57AF3432ED}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD_Single.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C75B90A238}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C75FA9921E}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C748571A39}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C74149AE25}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C7B3916076}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+      }
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 1426.867 38.159 2968.428
+  angles 0 -13.227 0
+ }
+ NightBox {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000000
+    MultiSlots {
+     MultiSlotConfiguration "{66E332C7026D634F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C76AAE3C6B}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{8F54EE49D3317266}Prefabs/Items/Equipment/Nightvision/VipLight/VipLight.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C77E96FE5F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C75FA9921E}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C748571A39}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{68C135B5F4F7C759}Prefabs/Items/Equipment/Nightvision/PVS31/PVS31_BLK_MC.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C74149AE25}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C7B3916076}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{251867FE9963CB67}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_RAS_TA31RCO_PEQ.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C5BA05948C}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01/Flashlight_Soviet_01.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C5BD420A83}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C5AA0A9C6C}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+      }
+      NumSlots 25
+     }
+     MultiSlotConfiguration "{66E332C598B490C8}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+      NumSlots 10
+     }
+     MultiSlotConfiguration "{66E332C59EC562D5}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C5943B1945}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C58F89BABA}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C581DDA9F7}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+      NumSlots 30
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 1078.05 38.904 2933.452
+  angles 0 -13.227 0
+ }
+ MiscBox {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000000
+    MultiSlots {
+     MultiSlotConfiguration "{66E332C7026D634F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{1852DD0D0BED6182}Prefabs/Items/GC_Facepaint_01_Base.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C76AAE3C6B}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C77E96FE5F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{2B10341C641EC041}Prefabs/Items/Equipment/Thermals/PATROL_IR/Thermal_PatrolIr.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C75FA9921E}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C748571A39}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C74149AE25}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{03810BEF182ADA0B}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C7B3916076}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C5BA05948C}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{ABE212A038EC771D}Prefabs/Weapons/GMFX/MineDetector/GMFX_Handgun_MineSweeper.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C5BD420A83}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{0228B8EFBA99AC1D}Prefabs/Weapons/Misc/SpectrumDevice/Device_SpectrumDevice_base.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C5AA0A9C6C}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{452112928EC197AD}Prefabs/Items/Equipment/Periscope/ACE_TacticalPeriscope.et"
+      }
+      NumSlots 25
+     }
+     MultiSlotConfiguration "{66E332C598B490C8}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C59EC562D5}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C5943B1945}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{2A63C909016C4C41}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M662_Red.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C58F89BABA}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{0AF10C206CF1A283}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M661_Green.et"
+      }
+     }
+     MultiSlotConfiguration "{66E332C581DDA9F7}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{98DB57ECEDC81CC2}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_M583A1_White.et"
+      }
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 1040.95 38.062 2915.375
+  angles 0 -13.227 0
+ }
+ RangeBox {
+  components {
+   SCR_SoundDataComponent "{5C53391603B5CF41}" {
+    Enabled 1
+   }
+   SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+    Enabled 1
+    UseCapacityCoefficient 0
+    MaxCumulativeVolume 1000000000
+    MultiSlots {
+     MultiSlotConfiguration "{66E332C7026D634F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C76AAE3C6B}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{E5E9DBBF3BFB88C6}Prefabs/Weapons/Attachments/Optics/Optic_PGO7/Optic_PGO7V3.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C77E96FE5F}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{D3F274F6E2A5A924}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_M203_OliveGreen_Solid.et"
+      }
+      NumSlots 15
+     }
+     MultiSlotConfiguration "{66E332C75FA9921E}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{D182DCDD72BF7E34}Prefabs/Weapons/MachineGuns/M60/MG_M60.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C748571A39}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C74149AE25}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C7B3916076}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9535D6E39DCA78FB}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_TBG7VL.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C5BA05948C}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{86A7681BD1D4E4BB}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_PG7VR.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C5BD420A83}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{AD8AB93729348C3E}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_Tracer.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{66E332C5AA0A9C6C}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{66E332C598B490C8}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{4575737B3D3A4505}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M196_Tracer.et"
+      }
+      NumSlots 100
+     }
+     MultiSlotConfiguration "{66E332C59EC562D5}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{66E332C5943B1945}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{AE8BF1F7476AA76D}Prefabs/Weapons/Launchers/MAW_84MM/Launcher_84mm_MAW_Optic.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C58F89BABA}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{65DEE4A3BAAD1B1E}Prefabs/Weapons/Launchers/LAW80/Launcher_LAW80_base.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{66E332C3236D1083}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{F2E474689BD7C2E1}Prefabs/Weapons/Ammo/Ammo_Rocket_HEAT_L40.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{66E332C362BD42C1}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{467F517A9230DD9F}Prefabs/Weapons/Ammo/Ammo_Rocket_LAW80.et"
+      }
+      NumSlots 50
+     }
+    }
+   }
+   ActionsManagerComponent "{5476B36C403D4CC0}" {
+    Enabled 1
+   }
+  }
+  coords 1438.327 40.298 2951.898
+  angles 0 -13.227 0
+ }
+}
