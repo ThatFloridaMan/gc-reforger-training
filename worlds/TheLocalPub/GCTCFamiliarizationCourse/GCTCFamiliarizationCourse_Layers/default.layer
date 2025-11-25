@@ -40,7 +40,18 @@ PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/
   }
  }
  coords 3520.824 0 3414.224
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{66F2C8D63D2D15C1}" {
+   m_sFactionKey "US"
+   m_iCount 999999
+  }
+ }
+ m_eJIPState Auto
 }
 TILW_MissionFrameworkEntity TILWFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3675.609 24.321 3361.645
+ m_missionEvents {
+  TILW_MissionEvent "{66F2C8D5C84D7370}" {
+  }
+ }
 }

@@ -19,6 +19,13 @@ GenericEntity Parachutebox : "{414981D81357CBFE}PrefabsEditable/Auto/Props/Milit
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
    Enabled 1
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.8 0
+     }
+    }
+   }
   }
  }
  coords 1182.53 2368.494 2828.567
@@ -88,10 +95,23 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
       }
       NumSlots 100
      }
+     MultiSlotConfiguration "{66F2C8D7102FFAF9}" {
+      SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
+       Prefab "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et"
+      }
+      NumSlots 100
+     }
     }
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
    }
   }
   coords 1403.371 38 2935.443
@@ -153,6 +173,13 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
    }
   }
   coords 1264.221 37.974 2918.938
@@ -170,7 +197,7 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
     MultiSlots {
      MultiSlotConfiguration "{66E332C7026D634F}" {
       SlotTemplate InventoryStorageSlot "{62F7223228D32A56}" {
-       Prefab "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+       Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
       }
       NumSlots 30
      }
@@ -214,6 +241,13 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
    }
   }
   coords 1156.626 37.557 2928.493
@@ -288,6 +322,13 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
    }
   }
   coords 1424.454 38.13 2976.535
@@ -352,6 +393,13 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
    }
   }
   coords 1426.867 38.159 2968.428
@@ -461,6 +509,13 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
    }
   }
   coords 1078.05 38.904 2933.452
@@ -565,6 +620,13 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
    }
   }
   coords 1040.95 38.062 2915.375
@@ -680,6 +742,13 @@ $grp GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/Ammo
    }
    ActionsManagerComponent "{5476B36C403D4CC0}" {
     Enabled 1
+    ActionContexts {
+     UserActionContext "{5476B36C47B0461A}" {
+      Position PointInfo "{5476B36C45ADDA89}" {
+       Offset 0 0.8 0
+      }
+     }
+    }
    }
   }
   coords 1438.327 40.298 2951.898
