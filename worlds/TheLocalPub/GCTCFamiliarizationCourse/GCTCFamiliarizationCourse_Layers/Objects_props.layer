@@ -130,7 +130,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
   components {
    MeshObject "{54969A6AAAADA251}" {
     Materials {
-     MaterialAssignClass "{64D73792AE7117F4}" {
+     MaterialAssignClass "{66F2C8D46AC12804}" {
       SourceMaterial "SignLarge_01"
       AssignedMaterial "{2B07A9714D9495D9}worlds/TheLocalPub/GCTCFamiliarizationCourse/Assets/Structures/Signs/Large/Data/LobbySign.emat"
      }
@@ -240,7 +240,7 @@ $grp GenericEntity : "{34D92102FDF5B58D}worlds/TheLocalPub/GCTCFamiliarizationCo
   components {
    MeshObject "{54969A6AAAADA251}" {
     Materials {
-     MaterialAssignClass "{64D73792FAB4C091}" {
+     MaterialAssignClass "{66F2C8D473C71FC6}" {
       SourceMaterial "SignLarge_01"
       AssignedMaterial "{AB1E9A988049C70E}worlds/TheLocalPub/GCTCFamiliarizationCourse/Assets/Structures/Signs/Large/Data/BriefingSign.emat"
      }
@@ -1331,9 +1331,9 @@ $grp GenericEntity : "{500D32CE09A605EC}Prefabs/Structures/Signs/Tourist/TrackSi
   scale 21.043
  }
  {
-  coords 1107.929 39.287 2976.762
+  coords 1108.306 41.401 2977.08
   angles 1.223 145.068 166.927
-  scale 21.043
+  scale 41.665
  }
  {
   coords 1488.932 39.169 2955.226
@@ -1393,11 +1393,6 @@ $grp GenericEntity : "{500D32CE09A605EC}Prefabs/Structures/Signs/Tourist/TrackSi
  {
   coords 1047.392 38.636 2909.508
   angles -1.181 -20.676 -1.803
-  scale 21.043
- }
- {
-  coords 1033.827 38.163 2933.953
-  angles 88.787 -177.533 143.184
   scale 21.043
  }
  {
