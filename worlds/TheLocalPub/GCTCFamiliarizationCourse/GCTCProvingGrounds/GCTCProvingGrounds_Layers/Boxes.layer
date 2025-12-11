@@ -1,0 +1,24 @@
+$grp GenericEntity : "{A97EDE8C0375CA9D}PrefabsEditable/Auto/Props/Military/Compositions/CIV/E_ArsenalBox_EVERYTHING.et" {
+ {
+  coords 1438.251 38.476 2939.095
+ }
+ {
+  coords 1448.267 38.684 2941.47
+  angles 0 1.637 0
+ }
+ {
+  coords 1428.09 38.483 2936.437
+  angles 0 -178.007 0
+ }
+ {
+  coords 1463.524 1.183 1768.302
+ }
+ {
+  components {
+   EverythingArsenal_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    m_eSupportedArsenalItemTypes MORTARS
+   }
+  }
+  coords 2508.386 147.713 2255.009
+ }
+}

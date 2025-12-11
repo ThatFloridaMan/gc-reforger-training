@@ -1,0 +1,222 @@
+$grp GenericEntity {
+ Spawn {
+  coords 1437.086 37.938 2961.879
+  angles 0 -10.711 0
+ }
+ ParachuteTraining {
+  components {
+   PK_EntityProtectorComponent "{64E92E7918B8E1D6}" {
+   }
+  }
+  coords 1194.124 2041.994 2826.957
+  angles 0 31.801 0
+ }
+ BoatTraining {
+  coords 1447.288 1.136 1779.815
+ }
+}
+$grp PK_EntityDeleter {
+ {
+  coords 1425.729 37.969 2975
+  angles 0 -13.486 0
+  m_fRadius 13
+  m_prefabFilterList {
+   "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_US.et"
+   "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
+   "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et"
+   "{FB98EBEA27AC7DA1}Prefabs/Groups/BLUFOR/US/Army/1975/Infantry/P/Group_US_1975_CoyHQ_P.et"
+   "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et"
+   "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et"
+   "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco barrier.et"
+   "{26649EBE262394AE}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_WaitStart.et"
+   "{EDD9195498561E1E}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Cain_08_3.et"
+   "{01695D7499B05DD7}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Sign_Cain_08_3.et"
+  }
+  m_excludePrefabsInList 1
+ }
+ {
+  coords 1446.697 39.057 2977.731
+  angles 0 -13.486 0
+  m_fRadius 5
+  m_prefabFilterList {
+   "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_US.et"
+   "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
+   "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et"
+   "{FB98EBEA27AC7DA1}Prefabs/Groups/BLUFOR/US/Army/1975/Infantry/P/Group_US_1975_CoyHQ_P.et"
+   "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et"
+   "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et"
+   "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco barrier.et"
+   "{26649EBE262394AE}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_WaitStart.et"
+   "{EDD9195498561E1E}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Cain_08_3.et"
+   "{01695D7499B05DD7}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Sign_Cain_08_3.et"
+  }
+  m_excludePrefabsInList 1
+ }
+ {
+  coords 2500.592 146.05 2246.333
+  angles 0 -13.486 0
+  m_fRadius 150
+  m_prefabFilterList {
+   "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_US.et"
+   "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
+   "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et"
+   "{FB98EBEA27AC7DA1}Prefabs/Groups/BLUFOR/US/Army/1975/Infantry/P/Group_US_1975_CoyHQ_P.et"
+   "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et"
+   "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et"
+   "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco barrier.et"
+   "{26649EBE262394AE}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_WaitStart.et"
+   "{EDD9195498561E1E}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Cain_08_3.et"
+   "{01695D7499B05DD7}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Sign_Cain_08_3.et"
+   "{A97EDE8C0375CA9D}PrefabsEditable/Auto/Props/Military/Compositions/CIV/E_ArsenalBox_EVERYTHING.et"
+   "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et"
+  }
+  m_excludePrefabsInList 1
+ }
+}
+$grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
+ FlagTP_Spawn {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      ParentContextList +{
+      }
+      ActionTitle "ParachuteTrainingAreaTP"
+      Duration 0
+      "Sort Priority" 3
+      m_actionName "Teleport: Parachute training area"
+      m_locationName "ParachuteTraining"
+     }
+     TILW_TeleportInteraction "{66E344137CC14979}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "BoatTrainAreaTP"
+      "Sort Priority" 2
+      m_actionName "Teleport: Boat training area"
+      m_locationName "BoatTraining"
+     }
+     TILW_TeleportInteraction "{670F04AA39A9BC18}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "RangeTP"
+      "Sort Priority" 1
+      m_actionName "Teleport: Open range area"
+      m_locationName "RangePole"
+     }
+    }
+   }
+  }
+  coords 1437.28 39.225 2961.242
+  angles 0 -12.666 0
+ }
+ FlagTP_Boats {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      ActionTitle "SpawnTP"
+      Duration 0
+      "Sort Priority" 1
+      m_actionName "Teleport: Spawn"
+      m_locationName "Spawn"
+     }
+     TILW_TeleportInteraction "{66E327B29884E630}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "ParachuteTrainingAreaTP"
+      "Sort Priority" 3
+      m_actionName "Teleport: Parachute training area"
+      m_locationName "ParachuteTraining"
+     }
+     TILW_TeleportInteraction "{670F04AA147FF056}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "RangeTP"
+      "Sort Priority" 2
+      m_actionName "Teleport: Open range area"
+      m_locationName "RangePole"
+     }
+    }
+   }
+  }
+  coords 1448.292 2.323 1776.897
+ }
+ FlagTP_ParaArea {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      ParentContextList +{
+      }
+      ActionTitle "SpawnTP"
+      Duration 0
+      "Sort Priority" 1
+      m_actionName "Teleport: Spawn"
+      m_locationName "Spawn"
+     }
+     TILW_TeleportInteraction "{66E344137CC14979}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "BoatTrainAreaTP"
+      "Sort Priority" 3
+      m_actionName "Teleport: Boat training area"
+      m_locationName "BoatTraining"
+     }
+     TILW_TeleportInteraction "{670F04AA1A2B6D92}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "RangeTP"
+      "Sort Priority" 2
+      m_actionName "Teleport: Open range area"
+      m_locationName "RangePole"
+     }
+    }
+   }
+  }
+  coords 1195.383 2043.036 2826.124
+  angles 0 -12.666 0
+ }
+ FlagTP_Range {
+  components {
+   ActionsManagerComponent "{62EF76E0D47ED96A}" {
+    additionalActions {
+     TILW_TeleportInteraction "{62EF76E608B6CB36}" {
+      ParentContextList +{
+      }
+      ActionTitle "ParachuteTrainingAreaTP"
+      Duration 0
+      "Sort Priority" 3
+      m_actionName "Teleport: Parachute training area"
+      m_locationName "ParachuteTraining"
+     }
+     TILW_TeleportInteraction "{670F04ABE5D57F3F}" {
+      ParentContextList +{
+      }
+      ActionTitle "SpawnTP"
+      Duration 0
+      "Sort Priority" 1
+      m_actionName "Teleport: Spawn"
+      m_locationName "Spawn"
+     }
+     TILW_TeleportInteraction "{66E344137CC14979}" {
+      ParentContextList {
+       "Interact_A"
+      }
+      ActionTitle "BoatTrainAreaTP"
+      "Sort Priority" 2
+      m_actionName "Teleport: Boat training area"
+      m_locationName "BoatTraining"
+     }
+    }
+   }
+  }
+  coords 2507.068 149.24 2263.425
+  angles 0 -12.666 0
+ }
+}
