@@ -1,0 +1,32 @@
+SCR_DestructibleEntity DefaultSign3 : "{3C9CBEC6AF978785}Prefabs/Structures/Signs/SignLarge_02/SignLarge_02_345x240.et" {
+ coords 1384.175 36.974 2973.511
+ angles 0 -13.559 0
+}
+GenericEntity DefaultSign1 : "{48C842DD171DE304}Prefabs/Structures/Signs/Large/SignLarge_01_base.et" {
+ coords 1393.445 38.07 2976.654
+ angles 0 -12.034 0
+}
+SCR_DestructibleEntity DefaultSign2 : "{54C82F5580D6C936}Prefabs/Structures/Signs/SignLarge_02/SignLarge_02_345x166.et" {
+ coords 1389.432 37.832 2975.394
+ angles 0 -13.559 0
+}
+$grp SCR_DestructibleEntity : "{B90DA56B82E370CB}Prefabs/Structures/Signs/SignLarge_02/SignLarge_02_180x290.et" {
+ DefaultSign4 {
+  coords 1379.335 37.27 2972.545
+  angles 0 -13.559 0
+ }
+ SpawnSign1 {
+  components {
+   MeshObject "{54969A6AAAADA251}" {
+    Materials {
+     MaterialAssignClass "{670F04A7B870729A}" {
+      SourceMaterial "SignLarge_02_180x290"
+      AssignedMaterial "{F4D77B12C47FFBEC}worlds/TheLocalPub/GCTCProvingGrounds/Assets/Structures/Signs/SignLarge_02/Data/SignLarge_02_180x290_GCTCProvingGrounds.emat"
+     }
+    }
+   }
+  }
+  coords 1438.147 37.991 2958.05
+  angles 0 -13.964 0
+ }
+}

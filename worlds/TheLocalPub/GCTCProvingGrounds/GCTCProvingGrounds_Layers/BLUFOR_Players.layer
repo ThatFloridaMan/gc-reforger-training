@@ -1,0 +1,209 @@
+$grp SCR_AIGroup : "{FB98EBEA27AC7DA1}Prefabs/Groups/BLUFOR/US/Army/1975/Infantry/P/Group_US_1975_CoyHQ_P.et" {
+ Group1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1431.329 38.044 2981.152
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+ Group2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1431.758 38.044 2979.503
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+ Group3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1432.207 38.044 2977.778
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+ Group4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1432.714 38.044 2975.829
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+ Group5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1433.142 38.044 2974.18
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+ Group6 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1433.591 38.044 2972.456
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+ Group7 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1433.981 38.044 2970.956
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+ Group8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1434.409 38.044 2969.308
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+ Group9 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+   }
+  }
+  coords 1434.856 38.044 2967.583
+  angles 0 165.428 0
+  m_aUnitPrefabSlots {
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+   "{103000C29F4D0322}worlds/TheLocalPub/GCTCProvingGrounds/Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Infantry (Woodland)/P/Character_GCTC-PV_Random_P.et"
+  }
+  m_bPlayable 1
+  m_sCustomNameSet "Global Conflicts Gamers"
+ }
+}
