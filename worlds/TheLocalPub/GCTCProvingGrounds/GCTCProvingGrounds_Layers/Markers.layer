@@ -46,88 +46,79 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
     m_lineWidth 3
    }
   }
-  coords 1461.115 1.127 1771.992
+  coords 1046.628 1.842 3413.461
   Points {
-   ShapePoint "{670F04ADEDF3CDD3}" {
-    Position -290.926 -1.134 9.493
-   }
-   ShapePoint "{670F04AC3F66B398}" {
-    Position -578.919 0.05 -189.782
-   }
-   ShapePoint "{670F04AC12BAB3FF}" {
-    Position -498.743 8.381 -263.835
-   }
-   ShapePoint "{670F04AC13D7C989}" {
-    Position -468.244 15.068 -333.731
-   }
-   ShapePoint "{670F04AC134B8B8B}" {
-    Position -498.58 27.874 -412.335
-   }
-   ShapePoint "{670F04AC3F900507}" {
-    Position -403.8 -1.323 -610.456
-   }
-   ShapePoint "{670F04AC2FAC7854}" {
-    Position -228.888 -1.06 -592.244
-   }
-   ShapePoint "{670F04AC2C88DC8A}" {
-    Position -121.891 0.505 -573.447
-   }
-   ShapePoint "{670F04AC2C146577}" {
-    Position -2.986 6.119 -542.003
-   }
-   ShapePoint "{670F04AC2DE0C723}" {
-    Position 124.532 9.385 -544.355
-   }
-   ShapePoint "{670F04AC2D498E74}" {
-    Position 234.699 0.408 -472.114
-   }
-   ShapePoint "{670F04ADED69D420}" {
-    Position 304.891 4.749 -389.133
-   }
-   ShapePoint "{670F04AC38B2BD8B}" {
-    Position 384.549 3.805 -296.324
-   }
-   ShapePoint "{670F04AC3AA875A4}" {
-    Position 464.096 1.359 -191.443
-   }
-   ShapePoint "{670F04ADC45A33B9}" {
-    Position 524.261 1.424 -79.888
-   }
-   ShapePoint "{670F04ADC4A22922}" {
-    Position 535.437 2.066 -13.324
-   }
-   ShapePoint "{670F04ADC653ED0D}" {
-    Position 522.888 3.673 48.198
-   }
-   ShapePoint "{670F04ADC0BB700A}" {
-    Position 473.632 -1.063 47.626
-   }
-   ShapePoint "{670F04ADC3D3BD1B}" {
-    Position 374.343 1.992 13.784
-   }
-   ShapePoint "{670F04ADC2614B91}" {
-    Position 346.42 3.162 25.451
-   }
-   ShapePoint "{670F04ADCD2D5D53}" {
-    Position 258.916 1.011 91.691
-   }
-   ShapePoint "{670F04ADCDA56C20}" {
-    Position 202.531 -0.502 149.091
-   }
    ShapePoint "{670F04ADCC0B6AA8}" {
-    Position 160.877 2.514 157.763
+    Position 161.406 -0.931 -160.06
    }
-   ShapePoint "{670F04ADCF3B7241}" {
-    Position 64.733 3.855 121.346
+   ShapePoint "{671F3D98B9FCF75B}" {
+    Position 166.178 4.153 -87.782
    }
-   ShapePoint "{670F04ADCE4D09E6}" {
-    Position 5.773 2.751 83.925
+   ShapePoint "{671F3D98B97B1A2F}" {
+    Position 152.566 11.325 -23.68
    }
-   ShapePoint "{670F04ADD4687374}" {
-    Position -29.784 1.444 17.037
+   ShapePoint "{671F3D98BEC3517C}" {
+    Position 90.091 8.367 18.457
    }
-   ShapePoint "{670F04ADE28697EC}" {
-    Position -79.679 0.772 12.109
+   ShapePoint "{671F3D98BFA609B8}" {
+    Position 26.371 -0.824 7.635
+   }
+   ShapePoint "{671F3D98B344CB46}" {
+    Position -13.285 -1.239 -12.372
+   }
+   ShapePoint "{671F3D98B00BE829}" {
+    Position -81.806 -1.591 3.144
+   }
+   ShapePoint "{671F3D98B6DE9F37}" {
+    Position -146.999 -1.33 33.575
+   }
+   ShapePoint "{671F3D98B654BDB9}" {
+    Position -209.472 -0.86 80.361
+   }
+   ShapePoint "{671F3D98B4FFF125}" {
+    Position -240.133 -1.472 115.229
+   }
+   ShapePoint "{671F3D98B46614D8}" {
+    Position -300.929 -2.031 115.296
+   }
+   ShapePoint "{671F3D98B56DF066}" {
+    Position -335.07 -1.531 112.042
+   }
+   ShapePoint "{671F3D98AAF76F89}" {
+    Position -406.794 -2.034 69.647
+   }
+   ShapePoint "{671F3D98ABBF3154}" {
+    Position -448.524 -26.198 -68.504
+   }
+   ShapePoint "{671F3D98AB391189}" {
+    Position -399.369 -16.584 -212.501
+   }
+   ShapePoint "{671F3D98A8B05100}" {
+    Position -320.626 -10.319 -349.928
+   }
+   ShapePoint "{671F3D98A8248EB9}" {
+    Position -247.586 12.641 -401.296
+   }
+   ShapePoint "{671F3D98A91AEC56}" {
+    Position -207.218 11.2 -359.989
+   }
+   ShapePoint "{671F3D98AEA2194E}" {
+    Position -155.161 -1.07 -315.53
+   }
+   ShapePoint "{671F3D98AE10229A}" {
+    Position -110.806 5.957 -283.165
+   }
+   ShapePoint "{671F3D98AF82B8B5}" {
+    Position -77.226 -1.217 -253.512
+   }
+   ShapePoint "{671F3D98AF01AC51}" {
+    Position -22.945 -1.432 -234.002
+   }
+   ShapePoint "{671F3D98ACBAEB94}" {
+    Position 15.418 -1.051 -237.655
+   }
+   ShapePoint "{671F3D98AC287A0B}" {
+    Position 64.699 -1.004 -197.301
    }
   }
  }
@@ -267,8 +258,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  BoatArea {
-  coords 1448.018 1.208 1777.394
-  angles 0 87.074 0
+  coords 1153.461 1.156 3283.541
   m_MarkerColor 0 0.25 1 1
   m_sQuadName "flag-2"
   m_fWorldSize 40
@@ -279,8 +269,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bShowForAnyFaction 1
  }
  Aresnal2 {
-  coords 1462.025 1.144 1769.664
-  angles 0 88.756 0
+  coords 1165.849 1.156 3283.542
   m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
   m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
   m_MarkerColor 0 0 0 1
@@ -314,6 +303,18 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
   m_iZOrder 9
+  m_bShowForAnyFaction 1
+ }
+ MSR {
+  coords 2730.992 77.241 2018.823
+  angles 0 87.074 0
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Main supply route (MSR)"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 10
   m_bShowForAnyFaction 1
  }
 }

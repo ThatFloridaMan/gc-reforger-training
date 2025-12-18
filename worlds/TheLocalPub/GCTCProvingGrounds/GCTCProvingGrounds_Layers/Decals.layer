@@ -274,7 +274,7 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{670934A5CB614894}" {
-    Position 87.166 0 -56.344
+    Position 98.822 1 -100.936
    }
   }
   {
@@ -288,7 +288,7 @@ $grp SplineShapeEntity {
         Position -5.594 0 -5.86
        }
        ShapePoint "{56A8E422A6B3348B}" {
-        Position 69.603 0 12.241
+        Position 69.603 0 12.24
         Data {
          SplinePointData "{00000000D8F1BA4F}" {
           InTangent 0.019 0 -0.074
@@ -297,7 +297,7 @@ $grp SplineShapeEntity {
         }
        }
        ShapePoint "{670934AEFBD1BE57}" {
-        Position 87.166 0 -56.344
+        Position 98.822 1 -100.936
        }
       }
       IsClosedSpline 0

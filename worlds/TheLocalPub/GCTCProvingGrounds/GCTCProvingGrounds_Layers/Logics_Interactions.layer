@@ -12,7 +12,8 @@ $grp GenericEntity {
   angles 0 31.801 0
  }
  BoatTraining {
-  coords 1447.288 1.136 1779.815
+  coords 1155.757 1.156 3282.483
+  angles 0 131.512 0
  }
 }
 $grp PK_EntityDeleter {
@@ -29,8 +30,7 @@ $grp PK_EntityDeleter {
    "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et"
    "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco barrier.et"
    "{26649EBE262394AE}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_WaitStart.et"
-   "{EDD9195498561E1E}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Cain_08_3.et"
-   "{01695D7499B05DD7}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Sign_Cain_08_3.et"
+   "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et"
   }
   m_excludePrefabsInList 1
  }
@@ -57,20 +57,27 @@ $grp PK_EntityDeleter {
   angles 0 -13.486 0
   m_fRadius 150
   m_prefabFilterList {
-   "{E55FC02F8C1518A2}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_US.et"
-   "{9A8AE4E1D90840AC}Prefabs/Props/Fabric/Flags/Flag_1_2_Blue_01.et"
-   "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et"
-   "{FB98EBEA27AC7DA1}Prefabs/Groups/BLUFOR/US/Army/1975/Infantry/P/Group_US_1975_CoyHQ_P.et"
-   "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et"
-   "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et"
-   "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco barrier.et"
-   "{26649EBE262394AE}Prefabs/Structures/Infrastructure/Roads/Runway/Runway_Line_WaitStart.et"
-   "{EDD9195498561E1E}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Cain_08_3.et"
-   "{01695D7499B05DD7}Prefabs/Structures/Signs/Directions/SignDirection_Cain_01/SignDirection_02_Sign_Cain_08_3.et"
-   "{A97EDE8C0375CA9D}PrefabsEditable/Auto/Props/Military/Compositions/CIV/E_ArsenalBox_EVERYTHING.et"
-   "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et"
+   "{5E2CFF1277FBB9CF}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_1f.et"
+   "{EDA004BB3DFC064A}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_1s.et"
+   "{C732468B6A1C885F}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_2f.et"
+   "{74BEBD22201B37DA}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_2s.et"
+   "{B0382E039EBE672F}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_3f.et"
+   "{20DF6F32A326584B}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_3f_high.et"
+   "{03B4D5AAD4B9D8AA}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_3s.et"
+   "{FC9A12CDC5288469}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_3w.et"
+   "{CD20C2FBFB2D5BB6}Prefabs/Vegetation/Tree/t_pinus_sylvestris/t_pinus_sylvestris_3x.et"
+   "{B78F72C338993EA1}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_1f.et"
+   "{C547FFD0C63A6F3E}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_1s.et"
+   "{70692C116A6B4177}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_1sw.et"
+   "{EFD5BDE091DAE12B}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_2f.et"
+   "{5C594649DBDD5EAE}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_2s.et"
+   "{2E810552D5E6CF78}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_2sw.et"
+   "{616D6371AEB1D799}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_2t.et"
+   "{98DFD56865780E5B}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_3f.et"
+   "{2B532EC12F7FB1DE}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_3s.et"
+   "{DA8942CAD83BA70C}Prefabs/Vegetation/Tree/t_betula_pendula/t_betula_pendula_3sw.et"
+   "{04592C849978A51C}Prefabs/Vegetation/Tree/t_sorbus_aucuparia/t_sorbus_aucuparia_2f.et"
   }
-  m_excludePrefabsInList 1
  }
 }
 $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_TeleportInteraction.et" {
@@ -143,7 +150,8 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
     }
    }
   }
-  coords 1448.292 2.323 1776.897
+  coords 1152.907 2.554 3283.665
+  angles 0 131.512 0
  }
  FlagTP_ParaArea {
   components {
@@ -196,7 +204,8 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
       m_locationName "ParachuteTraining"
      }
      TILW_TeleportInteraction "{670F04ABE5D57F3F}" {
-      ParentContextList +{
+      ParentContextList {
+       "Interact_A"
       }
       ActionTitle "SpawnTP"
       Duration 0
@@ -216,7 +225,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
     }
    }
   }
-  coords 2507.068 149.24 2263.425
+  coords 2505.307 149.194 2261.222
   angles 0 -12.666 0
  }
 }

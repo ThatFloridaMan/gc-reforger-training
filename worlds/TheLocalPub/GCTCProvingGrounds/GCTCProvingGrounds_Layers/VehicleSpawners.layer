@@ -500,8 +500,8 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
     m_fRespawnDistance 7
    }
   }
-  coords 1461.723 0 1780.928
-  angles 0 -152.005 0
+  coords 1134.008 0 3257.412
+  angles 0 -31.699 0
  }
  BoatSpawner2 {
   components {
@@ -512,8 +512,8 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
     m_fRespawnDistance 7
    }
   }
-  coords 1467.995 0 1777.594
-  angles 0 -152.005 0
+  coords 1127.27 0 3253.252
+  angles 0 -31.699 0
  }
  BoatSpawner3 {
   components {
@@ -524,8 +524,8 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
     m_fRespawnDistance 7
    }
   }
-  coords 1484.302 0 1768.925
-  angles 0 -152.005 0
+  coords 1112.251 0 3243.976
+  angles 0 -31.699 0
  }
  BoatSpawner4 {
   components {
@@ -536,8 +536,8 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
     m_fRespawnDistance 7
    }
   }
-  coords 1478.031 0 1772.259
-  angles 0 -152.005 0
+  coords 1119.113 0 3248.213
+  angles 0 -31.699 0
  }
  Lightskinspawner10 {
   components {
@@ -728,8 +728,8 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
     m_fRespawnDistance 7
    }
   }
-  coords 1717.809 39 2941.756
-  angles 0 -162.838 0
+  coords 1727.268 39 2941.655
+  angles 0 -168.533 0
  }
  HeliSpawner14 {
   components {
@@ -790,5 +790,29 @@ $grp GenericEntity : "{44B5A261BDF9C355}Prefabs/EE_SimpleVehicleSpawner.et" {
   }
   coords 1725.087 39 2827.614
   angles 0 -12.245 0
+ }
+ LightArmoured15 {
+  components {
+   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+    m_aPrefabList {
+     "{53982BB1E5E3BE60}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce.et"
+    }
+    m_fRespawnDistance 7
+   }
+  }
+  coords 1496.653 38.119 2860.025
+  angles 0 75.3 0
+ }
+ LightArmoured16 {
+  components {
+   EE_SimpleVehicleSpawner "{66322C398DFD3AC0}" {
+    m_aPrefabList {
+     "{57FE9BCA625CA0E3}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_LWB_Recce_M2HB.et"
+    }
+    m_fRespawnDistance 7
+   }
+  }
+  coords 1495.21 38.119 2865.526
+  angles 0 75.3 0
  }
 }
