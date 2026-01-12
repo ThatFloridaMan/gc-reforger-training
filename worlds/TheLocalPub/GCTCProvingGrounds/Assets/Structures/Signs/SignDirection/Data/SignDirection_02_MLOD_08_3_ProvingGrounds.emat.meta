@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6CE1FAB7D12D06C0}Assets/Structures/Signs/SignDirection/Data/SignDirection_02_MLOD_08_3_ProvingGrounds.emat"
+ Name "{6CE1FAB7D12D06C0}worlds/TheLocalPub/GCTCProvingGrounds/Assets/Structures/Signs/SignDirection/Data/SignDirection_02_MLOD_08_3_ProvingGrounds.emat"
  Configurations {
   EMATResourceClass PC {
   }

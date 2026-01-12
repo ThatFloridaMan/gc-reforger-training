@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{32F12312231DF661}Assets/Structures/Signs/SignLarge_02/Data/SignLarge_02_345x240_GCTCProvingGrounds.emat"
+ Name "{32F12312231DF661}worlds/TheLocalPub/GCTCProvingGrounds/Assets/Structures/Signs/SignLarge_02/Data/SignLarge_02_345x240_GCTCProvingGrounds.emat"
  Configurations {
   EMATResourceClass PC {
   }
