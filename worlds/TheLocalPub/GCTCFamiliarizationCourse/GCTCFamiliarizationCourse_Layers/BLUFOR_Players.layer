@@ -10,9 +10,9 @@ $grp SCR_AIGroup : "{C42280A6985BFE69}Prefabs/Groups/BLUFOR/US/Army/1981/Infantr
   coords 1473.942 38 2948.71
   angles 0 -16.319 0
   m_aUnitPrefabSlots {
-   "{8CC55F30EE26B189}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Instructor_P.et"
-   "{8CC55F30EE26B189}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Instructor_P.et"
-   "{8CC55F30EE26B189}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Instructor_P.et"
+   "{A1E87D57B3155FF5}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Instructor_P.et"
+   "{A1E87D57B3155FF5}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Instructor_P.et"
+   "{A1E87D57B3155FF5}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Instructor_P.et"
   }
   m_sCustomNameSet "Instructors"
  }
@@ -28,16 +28,16 @@ $grp SCR_AIGroup : "{C42280A6985BFE69}Prefabs/Groups/BLUFOR/US/Army/1981/Infantr
   coords 1471.985 38 2943.509
   angles 0 -15.573 0
   m_aUnitPrefabSlots {
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
-   "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
+   "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et"
   }
   m_sCustomNameSet "Students"
  }

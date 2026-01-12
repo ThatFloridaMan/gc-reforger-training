@@ -1328,18 +1328,7 @@ $grp SplineShapeEntity {
  }
 }
 SCR_ChimeraCharacter : "{256F39E3E3C73A60}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Student_P.et" {
- components {
-  PS_PlayableComponent "{5EFCC1946F475F15}" {
-   m_sName "US"
-  }
-  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Student"
-    m_sFaction "US"
-   }
-  }
- }
- coords 1471.742 38 2944.908
+ coords 1475.165 38 2951.478
 }
 $grp GenericEntity : "{34D92102FDF5B58D}worlds/Prefabs/Structures/Signs/SignsLarge_Base.et" {
  {
@@ -1904,18 +1893,4 @@ $grp SCR_DestructibleBuildingEntity : "{686B4C83AC940895}Prefabs/Structures/Infr
   coords 1507.729 8.166 1785.457
   angles 0 -62.019 0
  }
-}
-SCR_ChimeraCharacter : "{8CC55F30EE26B189}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Instructor_P.et" {
- coords 1475.29 38 2947.49
-}
-$grp SCR_ChimeraCharacter : "{A1E87D57B3155FF5}Prefabs/Characters/Factions/BLUFOR/GCTC/US/Character_GCTC_Instructor_P.et" {
- {
-  coords 1467.572 38 2943.835
- }
- {
-  coords 1474.031 38 2945.906
- }
-}
-SCR_ChimeraCharacter : "{E12C588FAF9CED74}worlds/Prefabs/Characters/Factions/BLUFOR/US_Army/1980_Rifles/Character_Student_P.et" {
- coords 1475.308 38 2946.59
 }
