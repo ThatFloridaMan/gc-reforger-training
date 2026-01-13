@@ -1,3 +1,7 @@
+GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platform_10x10M.et" {
+ coords 1195.74 2039.928 2826.013
+ angles 0 0 0
+}
 SCR_DestructibleBuildingEntity : "{111B0910C84A0545}Prefabs/tem_bridge2.et" {
  coords 2760.941 118.168 1818.459
  angles 0 0 4.121
@@ -4366,7 +4370,7 @@ GenericEntity : "{7C7DA4E0663B42C9}PrefabsEditable/Auto/Props/Military/AmmoBoxes
    }
   }
  }
- coords 1196.296 2042 2825.225
+ coords 1196.296 2041.992 2825.225
  angles 0 37.882 0
 }
 $grp StaticModelEntity : "{80DF3BD810D032AF}Prefabs/Structures/Industrial/Towers/LightTower_01/LightTower_01.et" {

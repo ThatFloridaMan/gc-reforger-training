@@ -8,7 +8,7 @@ $grp GenericEntity {
    PK_EntityProtectorComponent "{64E92E7918B8E1D6}" {
    }
   }
-  coords 1194.124 2041.994 2826.957
+  coords 1195.46 2041.994 2827.528
   angles 0 31.801 0
  }
  BoatTraining {
