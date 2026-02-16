@@ -4547,6 +4547,16 @@ SCR_DestructibleBuildingEntity : "{BFD341B4254C64D6}Prefabs/Structures/Industria
  coords 1581.704 0.381 2469.156
  angles -1.4 0 0
 }
+$grp GenericEntity : "{C5E5467213DB03DA}PrefabsEditable/Auto/EffectsModuleEntities/E_EffectModule_DirectionArrow_Multiple.et" {
+ {
+  coords 1258.728 43.163 2911.787
+  angles -50.74 -102.952 0.771
+ }
+ {
+  coords 1290.814 41.544 2948.806
+  angles -50.74 -102.952 0.771
+ }
+}
 $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
  {
   coords 1457.546 0.536 2961.192
