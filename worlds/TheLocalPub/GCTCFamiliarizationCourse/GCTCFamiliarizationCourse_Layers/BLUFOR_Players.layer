@@ -4,7 +4,8 @@ $grp SCR_AIGroup : "{C42280A6985BFE69}Prefabs/Groups/BLUFOR/US/Army/1981/Infantr
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "File"
    }
-   PS_GroupCallsignAssigner "{64C752A10FBB32A1}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
    }
   }
   coords 1473.942 38 2948.71
@@ -21,7 +22,8 @@ $grp SCR_AIGroup : "{C42280A6985BFE69}Prefabs/Groups/BLUFOR/US/Army/1981/Infantr
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "File"
    }
-   PS_GroupCallsignAssigner "{64C752A10FBB32A1}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iSquadCallsign 1
    }
   }
