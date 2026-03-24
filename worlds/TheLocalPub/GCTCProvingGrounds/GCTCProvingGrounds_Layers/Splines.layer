@@ -1,0 +1,262 @@
+$grp SplineShapeEntity {
+ MSRSpine {
+  coords 2029.714 54.097 3155.781
+  angles 0 -42.329 0
+  Points {
+   ShapePoint "{68F12C127B91D86F}" {
+    Position -1.155 -4.599 -27.583
+   }
+   ShapePoint "{68F12C1101524F28}" {
+    Position 6.453 0.543 68.099
+   }
+   ShapePoint "{68F12C127B9E3A5A}" {
+    Position -18.981 2.94 166.914
+   }
+  }
+  {
+   RoadGeneratorEntity : "{512AB601E1636E26}Prefabs/WEGenerators/Roads/Asphalt/RG_Road_Asphalt_E_01_DashedLine.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    {
+     RoadEntity {
+      ID "556C6556FAB8EA7A"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position -1.155 -4.599 -27.583
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 6.453 0.543 68.099
+       }
+       ShapePoint "{68F12C110152288D}" {
+        Position -18.981 2.94 166.914
+       }
+      }
+      IsClosedSpline 0
+      Width 12
+     }
+    }
+   }
+  }
+ }
+ ASRSpine {
+  coords 2015.862 41.327 3149.14
+  angles 0 -45.377 0
+  Points {
+   ShapePoint "{68F12C12A9443036}" {
+    Position -4.011 -1.514 -29.28
+   }
+   ShapePoint "{68F12C1173A469FD}" {
+    Position 8.235 12.472 62.344
+   }
+   ShapePoint "{68F12C12A9440B1E}" {
+    Position -11.762 6.79 162.72
+   }
+  }
+  {
+   RoadGeneratorEntity : "{FBF452B7DEBBC974}Prefabs/WEGenerators/Roads/Asphalt/RG_Road_Asphalt_E_03.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C655534397360"
+      SplinePoints {
+       ShapePoint "{556C6556BF2A9CBB}" {
+        Position -4.012 -1.514 -29.279
+       }
+       ShapePoint "{556C6556BF2A9DE7}" {
+        Position 8.235 12.472 62.344
+       }
+       ShapePoint "{68F12C1173A43810}" {
+        Position -11.762 6.79 162.72
+       }
+      }
+      IsClosedSpline 0
+      Width 8
+     }
+    }
+   }
+  }
+ }
+ DRSpine {
+  coords 2018.431 42.281 3116.399
+  angles 0 -46.521 0
+  Points {
+   ShapePoint "{68F12C129CB54FD6}" {
+    Position 0 0 0
+   }
+   ShapePoint "{68F12C1162F68C3A}" {
+    Position 15.019 11.22 86.051
+   }
+   ShapePoint "{68F12C129CB5EE47}" {
+    Position -0.345 13.649 176.34
+   }
+  }
+  {
+   RoadGeneratorEntity : "{E2D78F357200A53F}Prefabs/WEGenerators/Roads/Dirt/RG_Road_Dirt_02.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    {
+     RoadEntity {
+      ID "556C65569DF42CF7"
+      SplinePoints {
+       ShapePoint "{556C65561A62B78A}" {
+        Position 0 0 0
+       }
+       ShapePoint "{556C65561A62EBA9}" {
+        Position 15.019 11.22 86.051
+       }
+       ShapePoint "{68F12C1162F6A0E0}" {
+        Position -0.345 13.649 176.34
+       }
+      }
+      IsClosedSpline 0
+      Width 4.5
+     }
+    }
+   }
+  }
+ }
+ DTSpine {
+  coords 2001.156 51.151 3112.5
+  Points {
+   ShapePoint "{68F12C1155479952}" {
+    Position 3.459 -0.115 -0.483
+   }
+   ShapePoint "{68F12C11B388667C}" {
+    Position -46.556 2.497 64.749
+   }
+   ShapePoint "{68F12C115547E35D}" {
+    Position -123.399 4.453 115.709
+   }
+  }
+  {
+   RoadGeneratorEntity DirtTrail : "{E4FE524AD8080397}Prefabs/WEGenerators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 3.459 -0.115 -0.483
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position -46.556 2.497 64.748
+       }
+       ShapePoint "{68F12C11B3881B61}" {
+        Position -123.399 4.453 115.709
+       }
+      }
+      IsClosedSpline 0
+      Width 1.75
+     }
+    }
+   }
+  }
+ }
+ TrainLineMarker {
+  coords 1990.656 51.5 3106.059
+  Points {
+   ShapePoint "{68F12C119C78801D}" {
+    Position 0 0 0
+   }
+   ShapePoint "{68F12C11F303F260}" {
+    Position -47.07 2.498 64.158
+   }
+   ShapePoint "{68F12C119C78E544}" {
+    Position -123.823 4.055 115.326
+   }
+  }
+  {
+   RoadGeneratorEntity : "{E4FE524AD8080397}Prefabs/WEGenerators/Roads/Dirt/RG_TrailDirt_01.et" {
+    coords 0 0 0
+    AdjustHeightMap 0
+    {
+     RoadEntity {
+      ID "526283EEB3C31502"
+      SplinePoints {
+       ShapePoint "{5256E6ED186CB7B5}" {
+        Position 0 0 0
+       }
+       ShapePoint "{5256E6ED186CB58D}" {
+        Position -47.07 2.498 64.158
+       }
+       ShapePoint "{68F12C11E9B117F1}" {
+        Position -123.823 4.055 115.326
+       }
+      }
+      IsClosedSpline 0
+      Type "Path Tourist"
+      Width 1.75
+      Material "{03BCF02E37EB3928}Assets/Structures/Infrastructure/Roads/Data/Trainline_InvisibleTexture.emat"
+     }
+    }
+   }
+  }
+ }
+ TrainlineSpine {
+  coords 1990.656 51.5 3106.059
+  Points {
+   ShapePoint "{68F12C119C78801D}" {
+    Position 0 0 0
+   }
+   ShapePoint "{68F12C1F15064802}" {
+    Position -20.29 0.876 30.966
+   }
+   ShapePoint "{68F12C1F05273203}" {
+    Position -49.667 2.545 62.474
+   }
+   ShapePoint "{68F12C1F7A8EADF2}" {
+    Position -88.67 4.406 89.354
+   }
+   ShapePoint "{68F12C1F7EF95E81}" {
+    Position -115.989 4.463 105.431
+   }
+   ShapePoint "{68F12C1F7CE2CE80}" {
+    Position -132.766 3.14 117.183
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   RER_RailGeneratorEntity : "{760B2E107433312C}Prefabs/WEGenerators/Railway/Old/RWG_OldRailwayHigh.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 35
+    m_maxAngleXAdjustment 90
+    {
+     $grp GenericEntity : "{11A731FAF46040FC}Prefabs/Structures/Infrastructure/Rail/Old/railsN_curve_L25_5.et" {
+      {
+       coords -63.128 3.248 73.457
+       angles 2.205 -55.75 -0.763
+      }
+      {
+       coords -83.85 4.178 87.308
+       angles 1.798 -60.75 -1.04
+      }
+     }
+     GenericEntity : "{23984E8F14085BF3}Prefabs/Structures/Infrastructure/Rail/Old/railsN_curve_L25_10.et" {
+      coords -15.092 0.679 22.933
+      angles 2.031 -38.237 -0.118
+     }
+     GenericEntity : "{4F56E45E805E3A97}Prefabs/Structures/Infrastructure/Rail/Old/railsN_curve_R25_10.et" {
+      coords -105.878 4.862 99.052
+      angles -0.247 -58.214 -0.96
+     }
+     GenericEntity : "{CB243999E6BF9062}Prefabs/Structures/Infrastructure/Rail/Old/railsN_curve_L30_20.et" {
+      coords -53.425 2.763 65.7
+      angles 2.26 -48.245 -0.471
+     }
+     $grp GenericEntity : "{EF380F97E155CAB5}Prefabs/Structures/Infrastructure/Rail/Old/railsN_25.et" {
+      {
+       coords -1.35 0.058 2.061
+       angles 1.356 -33.234 0
+      }
+      {
+       coords -30.83 1.564 42.307
+       angles 2.038 -43.24 -0.295
+      }
+     }
+    }
+   }
+  }
+ }
+}
