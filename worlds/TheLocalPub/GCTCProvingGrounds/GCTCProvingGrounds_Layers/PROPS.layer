@@ -1,3 +1,17 @@
+GenericEntity {
+ components {
+  MeshObject "{68F2FAAA6941F8BD}" {
+   Object "{DBE32115FB8473C1}Assets/Items/Food/ACE_Banana.xob"
+  }
+  RigidBody "{68F2FAAA55983945}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 2405.336 262.684 2916.684
+ angles 0 86.728 0
+ scale 1000
+}
 GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platform_10x10M.et" {
  coords 1195.74 2039.928 2826.013
  angles 0 0 0

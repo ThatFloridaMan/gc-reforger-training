@@ -153,46 +153,6 @@ $grp SplineShapeEntity {
    }
   }
  }
- TrainLineMarker {
-  coords 1990.656 51.5 3106.059
-  Points {
-   ShapePoint "{68F12C119C78801D}" {
-    Position 0 0 0
-   }
-   ShapePoint "{68F12C11F303F260}" {
-    Position -47.07 2.498 64.158
-   }
-   ShapePoint "{68F12C119C78E544}" {
-    Position -123.823 4.055 115.326
-   }
-  }
-  {
-   RoadGeneratorEntity : "{E4FE524AD8080397}Prefabs/WEGenerators/Roads/Dirt/RG_TrailDirt_01.et" {
-    coords 0 0 0
-    AdjustHeightMap 0
-    {
-     RoadEntity {
-      ID "526283EEB3C31502"
-      SplinePoints {
-       ShapePoint "{5256E6ED186CB7B5}" {
-        Position 0 0 0
-       }
-       ShapePoint "{5256E6ED186CB58D}" {
-        Position -47.07 2.498 64.158
-       }
-       ShapePoint "{68F12C11E9B117F1}" {
-        Position -123.823 4.055 115.326
-       }
-      }
-      IsClosedSpline 0
-      Type "Path Tourist"
-      Width 1.75
-      Material "{03BCF02E37EB3928}Assets/Structures/Infrastructure/Roads/Data/Trainline_InvisibleTexture.emat"
-     }
-    }
-   }
-  }
- }
  TrainlineSpine {
   coords 1990.656 51.5 3106.059
   Points {
@@ -256,6 +216,649 @@ $grp SplineShapeEntity {
       }
      }
     }
+   }
+  }
+ }
+ RunwaySpine {
+  coords 1973.233 51.656 3093.869
+  Points {
+   ShapePoint "{68F2FAB6BCF1A29F}" {
+    Position -125.279 1.468 104.267
+   }
+   ShapePoint "{68F2FAB64166367F}" {
+    Position -50.074 2.732 61.274
+   }
+   ShapePoint "{68F2FAB6416624D4}" {
+    Position 5 -0.236 0
+   }
+  }
+  {
+   RoadGeneratorEntity : "{A50367D5B2298655}Prefabs/WEGenerators/Roads/Concrete/RG_Runway_10m.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "5664DC34FDF64995"
+      SplinePoints {
+       ShapePoint "{68F2FAB6A6F016CA}" {
+        Position -125.279 1.468 104.267
+       }
+       ShapePoint "{68F2FAB6A6F0161D}" {
+        Position -50.074 2.732 61.274
+       }
+       ShapePoint "{68F2FAB6A6F017A7}" {
+        Position 5 -0.236 0
+       }
+      }
+      IsClosedSpline 0
+      Width 10
+     }
+    }
+   }
+  }
+ }
+}
+$grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ MSRSpineMarker {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.93 0.807 0.136 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2388.496 0 3826.953
+  Points {
+   ShapePoint "{68F2FAB7ADB8F897}" {
+    Position -446.264 56.416 -589.743
+   }
+   ShapePoint "{68F2FAB7AF89041D}" {
+    Position -483.218 56.833 -567.292
+   }
+   ShapePoint "{68F2FAB3BAD01621}" {
+    Position -478.254 57.071 -558.031
+   }
+   ShapePoint "{68F2FAB3A75CC74B}" {
+    Position -439.519 56.801 -581.409
+   }
+   ShapePoint "{68F2FAB7F8BD678B}" {
+    Position -413.837 55.597 -598.406
+   }
+   ShapePoint "{68F2FAB3446977C6}" {
+    Position -395.918 54.988 -612.938
+   }
+   ShapePoint "{68F2FAB7858CE261}" {
+    Position -377.814 53.937 -632.836
+   }
+   ShapePoint "{68F2FAB3A8CD6F7E}" {
+    Position -363.731 52.838 -650.734
+   }
+   ShapePoint "{68F2FAB35AF69311}" {
+    Position -337.742 49.584 -687.93
+   }
+   ShapePoint "{68F2FAB78BDB170D}" {
+    Position -347.127 49.91 -693.248
+   }
+   ShapePoint "{68F2FAB7882A61C4}" {
+    Position -371.923 52.345 -657.074
+   }
+   ShapePoint "{68F2FAB7878F9FDB}" {
+    Position -386.795 53.367 -638.008
+   }
+   ShapePoint "{68F2FAB789462C15}" {
+    Position -403.001 54.277 -620.907
+   }
+   ShapePoint "{68F2FAB782CF38C9}" {
+    Position -421.107 55.157 -606.268
+   }
+  }
+ }
+ ASRSpineMarker {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.973 0.939 0.262 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2529.16 0 4182.215
+  Points {
+   ShapePoint "{68F2FAA6AC3524EB}" {
+    Position -561.466 54.631 -970.625
+   }
+   ShapePoint "{68F2FAA6ACB9D783}" {
+    Position -547.051 53.846 -982.18
+   }
+   ShapePoint "{68F2FAA6AFBBEBB3}" {
+    Position -535.724 53.156 -994.581
+   }
+   ShapePoint "{68F2FAA6A89E6A7C}" {
+    Position -527.084 52.676 -1004.904
+   }
+   ShapePoint "{68F2FAA6ABA71F49}" {
+    Position -514.916 51.784 -1021.17
+   }
+   ShapePoint "{68F2FAA6B641F6ED}" {
+    Position -501.521 50.791 -1040.094
+   }
+   ShapePoint "{68F2FAA6B17D4BF9}" {
+    Position -493.518 50.215 -1051.896
+   }
+   ShapePoint "{68F2FAB3FF6AA03E}" {
+    Position -498.662 50.469 -1056.207
+   }
+   ShapePoint "{68F2FAB3FDC3454A}" {
+    Position -523.249 51.794 -1021.938
+   }
+   ShapePoint "{68F2FAA6A6423EB1}" {
+    Position -537.321 52.653 -1004.404
+   }
+   ShapePoint "{68F2FAB3F6FE40C2}" {
+    Position -554.218 53.706 -985.507
+   }
+   ShapePoint "{68F2FAA665990BAA}" {
+    Position -574.9 54.808 -970.143
+   }
+   ShapePoint "{68F2FAA607D03E73}" {
+    Position -615.717 56.522 -944.228
+   }
+   ShapePoint "{68F2FAB3F4A96C0D}" {
+    Position -592.683 55.799 -958.31
+   }
+   ShapePoint "{68F2FAB3F5B3B62F}" {
+    Position -636.046 56.128 -931.76
+   }
+   ShapePoint "{68F2FAA60241421C}" {
+    Position -633.002 56.537 -925.312
+   }
+   ShapePoint "{68F2FAA600F51A3F}" {
+    Position -607.835 56.674 -940.323
+   }
+   ShapePoint "{68F2FAA6693FC2F5}" {
+    Position -577.641 55.471 -958.828
+   }
+  }
+ }
+ DRSpineMarker {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.565 0.392 0.212 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.341 0 3673.417
+  Points {
+   ShapePoint "{68F2FAB3DE26E625}" {
+    Position -492.601 50.762 -556.92
+   }
+   ShapePoint "{68F2FAA5CB22CCB7}" {
+    Position -499.732 51.044 -545.839
+   }
+   ShapePoint "{68F2FAA5C817C142}" {
+    Position -510.379 51.43 -529.984
+   }
+   ShapePoint "{68F2FAB3D3501554}" {
+    Position -517.663 51.857 -519.653
+   }
+   ShapePoint "{68F2FAA5CF09F52A}" {
+    Position -532.454 52.77 -500.888
+   }
+   ShapePoint "{68F2FAA5C21D425C}" {
+    Position -543.705 53.478 -488.469
+   }
+   ShapePoint "{68F2FAB3D0101F08}" {
+    Position -550.28 53.885 -483.048
+   }
+   ShapePoint "{68F2FAA63A433CEE}" {
+    Position -564.896 54.513 -472.21
+   }
+   ShapePoint "{68F2FAB3D6E90698}" {
+    Position -574.941 55.073 -464.972
+   }
+   ShapePoint "{68F2FAA63EE8C45F}" {
+    Position -600.325 56.216 -449.56
+   }
+   ShapePoint "{68F2FAB3D65E31B7}" {
+    Position -618.76 55.843 -438.177
+   }
+   ShapePoint "{68F2FAA5E0A87CE4}" {
+    Position -616.21 56.026 -433.994
+   }
+   ShapePoint "{68F2FAA5E1ECE8EA}" {
+    Position -597.7 56.314 -445.31
+   }
+   ShapePoint "{68F2FAA5E6DE7EEF}" {
+    Position -572.786 55.172 -460.7
+   }
+   ShapePoint "{68F2FAA5E7DAD3CD}" {
+    Position -546.861 53.906 -479.588
+   }
+   ShapePoint "{68F2FAA5E52B181E}" {
+    Position -540.068 53.508 -484.873
+   }
+   ShapePoint "{68F2FAA5DA8F4E0C}" {
+    Position -528.636 52.754 -497.571
+   }
+   ShapePoint "{68F2FAA5DBEDC9E8}" {
+    Position -513.099 51.789 -517.913
+   }
+   ShapePoint "{68F2FAA5D8093033}" {
+    Position -488.825 50.746 -554.145
+   }
+  }
+ }
+ TrainSpineMarker {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.991 0.001 0.01 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2520.457 0 3690.535
+  Points {
+   ShapePoint "{68F2FAA4AD7036AA}" {
+    Position -658.769 53.798 -476.841
+   }
+   ShapePoint "{68F2FAA4AC6B8113}" {
+    Position -632.024 55.232 -492.652
+   }
+   ShapePoint "{68F2FAA4AF01CE32}" {
+    Position -609.903 54.702 -505.23
+   }
+   ShapePoint "{68F2FAA4AE16C995}" {
+    Position -592.57 54.029 -517.361
+   }
+   ShapePoint "{68F2FAA4A94721FA}" {
+    Position -582.092 53.869 -526.168
+   }
+   ShapePoint "{68F2FAA4A8195F74}" {
+    Position -560.138 53.49 -547.755
+   }
+   ShapePoint "{68F2FAA4ABF7CB16}" {
+    Position -547.013 52.666 -564.668
+   }
+   ShapePoint "{68F2FAA4B510BCCF}" {
+    Position -532.969 51.592 -587.192
+   }
+   ShapePoint "{68F2FAB425C75B2D}" {
+    Position -525.403 51.326 -584.161
+   }
+   ShapePoint "{68F2FAB41BF8926C}" {
+    Position -542.534 52.32 -558.554
+   }
+   ShapePoint "{68F2FAA445D6C10C}" {
+    Position -555.146 53.164 -542.241
+   }
+   ShapePoint "{68F2FAB419FDB7FB}" {
+    Position -576.465 53.781 -518.933
+   }
+   ShapePoint "{68F2FAA441AC0D1A}" {
+    Position -587.17 53.94 -509.829
+   }
+   ShapePoint "{68F2FAB41FB0979A}" {
+    Position -605.617 54.954 -497.558
+   }
+   ShapePoint "{68F2FAA4491FBE26}" {
+    Position -627.963 55.639 -484.345
+   }
+   ShapePoint "{68F2FAB41F723AC0}" {
+    Position -651.88 54.291 -468.418
+   }
+  }
+ }
+ DTSpineMarker1 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAB51C8391C1}" {
+    Position -624.801 55.395 -312.091
+   }
+   ShapePoint "{68F2FAA9B977419F}" {
+    Position -626.038 55.285 -314.396
+   }
+   ShapePoint "{68F2FAA9BFE04212}" {
+    Position -633.951 54.696 -309.776
+   }
+   ShapePoint "{68F2FAB513AE01D1}" {
+    Position -632.265 54.841 -307.237
+   }
+  }
+ }
+ RunwaySpineMarker {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.784 0.784 0.784 1
+    m_drawLine 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2274.825 0 3438.355
+  Points {
+   ShapePoint "{68F2FAB6FBF4ADCC}" {
+    Position -300.742 51.533 -348.136
+   }
+   ShapePoint "{68F2FAA7A5D13F7B}" {
+    Position -309.669 51.326 -335.928
+   }
+   ShapePoint "{68F2FAA79A1DC510}" {
+    Position -320.783 52.003 -322.93
+   }
+   ShapePoint "{68F2FAB6F909F239}" {
+    Position -330.667 52.826 -311.287
+   }
+   ShapePoint "{68F2FAA79EA996A9}" {
+    Position -348.669 53.983 -293.152
+   }
+   ShapePoint "{68F2FAB6FE575A23}" {
+    Position -357.928 54.549 -285.405
+   }
+   ShapePoint "{68F2FAA7935E2A68}" {
+    Position -377.215 54.738 -273.283
+   }
+   ShapePoint "{68F2FAB6F4B37075}" {
+    Position -391.58 54.414 -265.518
+   }
+   ShapePoint "{68F2FAA797911185}" {
+    Position -411.246 53.592 -256.51
+   }
+   ShapePoint "{68F2FAA740BC52A2}" {
+    Position -431.443 52.779 -249.276
+   }
+   ShapePoint "{68F2FAB6F5F88F69}" {
+    Position -425.748 53.19 -235.541
+   }
+   ShapePoint "{68F2FAA7466B2A46}" {
+    Position -401.052 54.302 -247.237
+   }
+   ShapePoint "{68F2FAA744BB00E8}" {
+    Position -379.154 54.89 -259.082
+   }
+   ShapePoint "{68F2FAA7BA61DEBC}" {
+    Position -361.957 54.687 -269.648
+   }
+   ShapePoint "{68F2FAA7BB50D02D}" {
+    Position -342.05 54.069 -283.364
+   }
+   ShapePoint "{68F2FAA7B9434CBD}" {
+    Position -321.168 52.764 -306.062
+   }
+   ShapePoint "{68F2FAA7BFD8E326}" {
+    Position -303.405 51.818 -325.707
+   }
+   ShapePoint "{68F2FAA7BDB57F3F}" {
+    Position -290.16 51.583 -339.797
+   }
+  }
+ }
+ DTSpineMarker3 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA52F98B5F4}" {
+    Position -609.129 56.093 -324.466
+   }
+   ShapePoint "{68F2FAA523BD175F}" {
+    Position -598.478 55.886 -331.325
+   }
+   ShapePoint "{68F2FAA52000ECE6}" {
+    Position -596.717 55.85 -328.825
+   }
+   ShapePoint "{68F2FAA521985283}" {
+    Position -607.404 56.116 -321.943
+   }
+  }
+ }
+ DTSpineMarker4 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA521985283}" {
+    Position -589.228 55.505 -333.2
+   }
+   ShapePoint "{68F2FAA577024FCD}" {
+    Position -591.151 55.452 -335.791
+   }
+   ShapePoint "{68F2FAA5758BDF47}" {
+    Position -583.005 54.965 -341.267
+   }
+   ShapePoint "{68F2FAA57513C53E}" {
+    Position -581.053 55.078 -338.523
+   }
+  }
+ }
+ DTSpineMarker5 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA57513C53E}" {
+    Position -577.82 54.924 -341.02
+   }
+   ShapePoint "{68F2FAA563D513AD}" {
+    Position -579.451 54.823 -343.277
+   }
+   ShapePoint "{68F2FAA561236643}" {
+    Position -570.959 54.367 -348.998
+   }
+   ShapePoint "{68F2FAA5669D6E38}" {
+    Position -569.319 54.392 -346.713
+   }
+  }
+ }
+ DTSpineMarker6 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA5669D6E38}" {
+    Position -564.528 54.131 -350.413
+   }
+   ShapePoint "{68F2FAA54E381B91}" {
+    Position -566.254 54.076 -352.697
+   }
+   ShapePoint "{68F2FAA54F7C98FE}" {
+    Position -558.215 53.742 -358.893
+   }
+   ShapePoint "{68F2FAA54CF36DB8}" {
+    Position -556.149 53.745 -356.649
+   }
+  }
+ }
+ DTSpineMarker7 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA54CF36DB8}" {
+    Position -553.068 53.633 -359.472
+   }
+   ShapePoint "{68F2FAA5BABF9E1E}" {
+    Position -555.009 53.648 -361.667
+   }
+   ShapePoint "{68F2FAA5B8A496D8}" {
+    Position -548.423 53.384 -368.309
+   }
+   ShapePoint "{68F2FAA5B810B218}" {
+    Position -546.061 53.309 -366.343
+   }
+  }
+ }
+ DTSpineMarker8 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA5B810B218}" {
+    Position -541.207 53.037 -372.079
+   }
+   ShapePoint "{68F2FAA5B092ED2F}" {
+    Position -543.224 53.121 -373.863
+   }
+   ShapePoint "{68F2FAA5B120C8EB}" {
+    Position -537.632 52.751 -380.317
+   }
+   ShapePoint "{68F2FAA5B6BB49AD}" {
+    Position -535.723 52.661 -378.785
+   }
+  }
+ }
+ DTSpineMarker9 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA5B6BB49AD}" {
+    Position -532.488 52.429 -382.435
+   }
+   ShapePoint "{68F2FAA5AA6DE813}" {
+    Position -534.545 52.527 -384.287
+   }
+   ShapePoint "{68F2FAA5A879700C}" {
+    Position -529.428 52.207 -390.745
+   }
+   ShapePoint "{68F2FAA5A9FAB619}" {
+    Position -527.289 52.102 -389.218
+   }
+  }
+ }
+ DTSpineMarker10 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA5A9FAB619}" {
+    Position -523.421 51.847 -394.632
+   }
+   ShapePoint "{68F2FAA5A020C167}" {
+    Position -525.483 51.96 -396.093
+   }
+   ShapePoint "{68F2FAA5A6E18274}" {
+    Position -519.885 51.676 -404.144
+   }
+   ShapePoint "{68F2FAA5A6713973}" {
+    Position -517.736 51.582 -402.563
+   }
+  }
+ }
+ DTSpineMarker11 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA5A6713973}" {
+    Position -515.513 51.512 -406.116
+   }
+   ShapePoint "{68F2FAA59B0771E3}" {
+    Position -517.522 51.585 -407.507
+   }
+   ShapePoint "{68F2FAA598333A71}" {
+    Position -512.596 51.414 -414.707
+   }
+   ShapePoint "{68F2FAA59E1D3E2C}" {
+    Position -510.614 51.341 -413.446
+   }
+  }
+ }
+ DTSpineMarker12 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAA59E1D3E2C}" {
+    Position -506.923 51.211 -418.346
+   }
+   ShapePoint "{68F2FAA593B01AD3}" {
+    Position -509.286 51.273 -419.877
+   }
+   ShapePoint "{68F2FAA5904A71C2}" {
+    Position -503.855 51.014 -428.863
+   }
+   ShapePoint "{68F2FAA591CE701F}" {
+    Position -501.248 50.941 -427.26
+   }
+  }
+ }
+ DTSpineMarker2 {
+  components {
+   TILW_MapShapeComponent "{6508F5526836BC09}" {
+    m_color 0.171 0.171 0.171 1
+    m_lineColor 0.423 0.423 0.423 1
+    m_lineWidth 1
+   }
+  }
+  coords 2508.12 0 3538.267
+  Points {
+   ShapePoint "{68F2FAB513AE01D1}" {
+    Position -620.222 55.62 -314.559
+   }
+   ShapePoint "{68F2FAA9A7611700}" {
+    Position -610.008 56.042 -320.859
+   }
+   ShapePoint "{68F2FAA9A466E93B}" {
+    Position -611.568 55.995 -322.656
+   }
+   ShapePoint "{68F2FAA9A5337021}" {
+    Position -621.121 55.552 -316.935
    }
   }
  }
