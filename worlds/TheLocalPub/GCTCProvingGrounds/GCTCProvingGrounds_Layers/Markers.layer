@@ -27,11 +27,23 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
    ShapePoint "{670F04AE2CD8B91A}" {
     Position -18.978 -0.689 -261.588
    }
-   ShapePoint "{670F04AE294EEBBA}" {
-    Position -85.865 0.026 -18.736
+   ShapePoint "{68F12C13F30F7C8B}" {
+    Position -74.989 0.026 -63.537
    }
-   ShapePoint "{670F04AE2835E954}" {
-    Position -26.405 0.182 -4.397
+   ShapePoint "{68F12C13F67D2B6D}" {
+    Position -153.507 -0.06 -83.153
+   }
+   ShapePoint "{68F12C13F455E856}" {
+    Position -159.837 0.026 -58.178
+   }
+   ShapePoint "{68F12C13EA8B954E}" {
+    Position -193.026 1.018 -66.084
+   }
+   ShapePoint "{68F12C13E8CFCD8F}" {
+    Position -211.136 -0.521 -9.131
+   }
+   ShapePoint "{68F12C13EE309F25}" {
+    Position -55.332 -0.556 36.44
    }
    ShapePoint "{670F04AE3D7E19CF}" {
     Position -32.253 0.003 22.841
@@ -231,16 +243,6 @@ $grp PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et
   }
  }
 }
-$grp GenericEntity : "{CD18971542C21223}Prefabs/Structures/Signs/Warnings/SignDangerCurve_01_right.et" {
- {
-  coords 1284.102 37.505 2951.408
-  angles 0 -165 0
- }
- {
-  coords 1268.978 38 2901.065
-  angles 0 40.768 0
- }
-}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  SpawnMarker {
   coords 1437.286 37.925 2961.031
@@ -315,10 +317,38 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 9
   m_bShowForAnyFaction 1
  }
- MSR {
-  coords 2730.992 77.241 2018.823
-  angles 0 87.074 0
+ Refuel1 {
+  coords 1262.068 38 2909.021
+  angles 0 88.756 0
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
+  m_MarkerColor 0 0 0 0
+  m_sQuadName "veh_fuel"
+  m_fWorldSize 100
+  m_sDescription "Ground vehicle fuel point"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 9
+  m_bShowForAnyFaction 1
+ }
+ Repair1 {
+  coords 1290.762 38.656 2948.585
+  angles 0 88.756 0
+  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
   m_MarkerColor 0 0 0 1
+  m_sQuadName "veh_damage"
+  m_fWorldSize 50
+  m_sDescription "Ground vehicle repair point"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 9
+  m_bShowForAnyFaction 1
+ }
+ MSR {
+  coords 2050.31 49.029 3132.398
+  angles 0 87.074 0
+  m_MarkerColor 0.251 0 0.502 1
   m_sQuadName "point-of-interest"
   m_fWorldSize 40
   m_sDescription "Main supply route (MSR)"
@@ -327,46 +357,64 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_iZOrder 10
   m_bShowForAnyFaction 1
  }
- Refuel1 {
-  coords 1257.679 38 2913.07
-  angles 0 88.756 0
-  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
-  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "veh_fuel"
-  m_fWorldSize 25
-  m_sDescription "Ground vehicle fuel point"
+ ASR {
+  coords 2035.975 52.569 3122.324
+  angles 0 87.074 0
+  m_MarkerColor 0.251 0 0.502 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Alternative supply route (ASR)"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
-  m_iZOrder 9
+  m_iZOrder 10
   m_bShowForAnyFaction 1
  }
- Repair1 {
-  coords 1292.887 38.656 2947.758
-  angles 0 88.756 0
-  m_sImageSet "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
-  m_sImageSetGlow "{6980E83C053C9B5D}UI/Textures/Icons/icons_wrapperUI-128-glow.imageset"
-  m_MarkerColor 0 0 0 1
-  m_sQuadName "veh_damage"
-  m_fWorldSize 25
-  m_sDescription "Ground vehicle repair point"
+ DR {
+  coords 2018.829 53.266 3113.485
+  angles 0 87.074 0
+  m_MarkerColor 0.251 0 0.502 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Dirt road (DR)"
   m_bUseWorldScale 0
   m_bVisibleForEmptyFaction 1
-  m_iZOrder 9
+  m_iZOrder 10
   m_bShowForAnyFaction 1
  }
-}
-GenericEntity : "{E0673017CF2EAAE4}Prefabs/Structures/Signs/Warnings/SignFuelStation_01_pole.et" {
- coords 1266.456 38 2903.732
- angles 0 63.662 0
-}
-$grp GenericEntity : "{F54738CD001CB336}Prefabs/Structures/Signs/Warnings/SignDangerCurve_01_left.et" {
- {
-  coords 1286.233 37.599 2943.318
-  angles 0 -37.423 0
+ DT {
+  coords 2007.808 51.537 3105.836
+  angles 0 87.074 0
+  m_MarkerColor 0.251 0 0.502 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Dirt trail (DT)"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 10
+  m_bShowForAnyFaction 1
  }
- {
-  coords 1264.697 37.971 2922.17
-  angles 0 116.76 0
+ Rail {
+  coords 1992.911 51.214 3099.075
+  angles 0 87.074 0
+  m_MarkerColor 0.251 0 0.502 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Railway (RW)"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 10
+  m_bShowForAnyFaction 1
+ }
+ Runway {
+  coords 1980.204 51.073 3087.972
+  angles 0 87.074 0
+  m_MarkerColor 0.251 0 0.502 1
+  m_sQuadName "point-of-interest"
+  m_fWorldSize 40
+  m_sDescription "Runway"
+  m_bUseWorldScale 0
+  m_bVisibleForEmptyFaction 1
+  m_iZOrder 10
+  m_bShowForAnyFaction 1
  }
 }

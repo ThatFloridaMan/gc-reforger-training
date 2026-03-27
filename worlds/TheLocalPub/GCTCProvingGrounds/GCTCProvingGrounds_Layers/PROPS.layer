@@ -1,3 +1,17 @@
+GenericEntity {
+ components {
+  MeshObject "{68F2FAAA6941F8BD}" {
+   Object "{DBE32115FB8473C1}Assets/Items/Food/ACE_Banana.xob"
+  }
+  RigidBody "{68F2FAAA55983945}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 2405.336 262.684 2916.684
+ angles 0 86.728 0
+ scale 1000
+}
 GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platform_10x10M.et" {
  coords 1195.74 2039.928 2826.013
  angles 0 0 0
@@ -30,7 +44,7 @@ SCR_DestructibleBuildingEntity : "{5B35DCE979E72C2E}Prefabs/Models/houses/tem_bi
    Enabled 0
   }
  }
- coords 1323.823 0.673 2169.18
+ coords 1968.05 5.3 2429.413
  angles 0 -35.335 0
  scale 5
 }
@@ -1341,7 +1355,7 @@ $grp GenericEntity : "{5E249786B7A6896D}Prefabs/Props/Construction/ConcretePipe/
     Enabled 0
    }
   }
-  coords 1886.788 209.226 3051.412
+  coords 1869.771 208.687 2964.906
   angles -89.402 65.28 -72.761
   scale 22.059
   {
@@ -4557,6 +4571,46 @@ $grp GenericEntity : "{C5E5467213DB03DA}PrefabsEditable/Auto/EffectsModuleEntiti
   angles -50.74 -102.952 0.771
  }
 }
+$grp GenericEntity : "{CD18971542C21223}Prefabs/Structures/Signs/Warnings/SignDangerCurve_01_right.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
+  }
+  coords 1284.102 37.505 2951.408
+  angles 0 -165 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
+  }
+  coords 1268.978 38 2901.065
+  angles 0 40.768 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
+  }
+  coords 1268.978 38 2901.065
+  angles 0 40.768 0
+  scale 2
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
+  }
+  coords 1284.102 37.505 2951.408
+  angles 0 -165 0
+  scale 2
+ }
+}
 $grp SCR_DestructibleEntity : "{D50A0255E3EB8CCF}Prefabs/Structures/Walls/Concrete/ConcreteWall_02/ConcreteWall_02_V1_4m.et" {
  {
   coords 1457.546 0.536 2961.192
@@ -5006,6 +5060,10 @@ $grp GenericEntity : "{E021E2FFF02ADF0C}Prefabs/Structures/Infrastructure/Lamps/
   angles 0 -14.592 0
  }
 }
+GenericEntity : "{E0673017CF2EAAE4}Prefabs/Structures/Signs/Warnings/SignFuelStation_01_pole.et" {
+ coords 1266.456 38 2903.732
+ angles 0 63.662 0
+}
 SCR_DestructibleBuildingEntity : "{E0ACB2BAE4EC89F3}Prefabs/Models/houses/tem_minaret2.et" {
  components {
   SCR_BellSoundComponent "{649AC339E61CF46A}" {
@@ -5106,9 +5164,53 @@ SCR_DestructibleBuildingEntity : "{F1819D8538B383D8}Prefabs/Models/houses/tem_ho
  coords 3289.943 -0.001 2571.482
  scale 5
 }
+$grp GenericEntity : "{F54738CD001CB336}Prefabs/Structures/Signs/Warnings/SignDangerCurve_01_left.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
+  }
+  coords 1286.233 37.599 2943.318
+  angles 0 -37.423 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
+  }
+  coords 1264.697 37.971 2922.17
+  angles 0 116.76 0
+  scale 2
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
+  }
+  coords 1264.697 37.971 2922.17
+  angles 0 116.76 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5496C1EF00137501}" {
+    Enabled 0
+   }
+  }
+  coords 1286.233 37.599 2943.318
+  angles 0 -37.423 0
+  scale 2
+ }
+}
 GenericEntity : "{F76340CCD79DCC5A}Prefabs/Props/Civilian/RadioSmall_01_red.et" {
  coords 1437.069 39.329 2957.437
  angles 0 -17.857 0
+}
+GenericEntity : "{F95F8C9DF736662B}Prefabs/Props/Military/RoadBlocks/Roadblock ConcreteBlock 4.et" {
+ coords 1301.503 -0.286 2951.245
+ angles 0 75.299 0
 }
 SCR_DestructibleBuildingEntity : "{FBA47D0BA1112099}Prefabs/Models/houses/tem_arch5.et" {
  components {
@@ -5197,4 +5299,8 @@ $grp GenericEntity : "{FC609C179F576083}Prefabs/Props/Military/H Barrier/Hesco b
   coords 1433.004 0.015 2955.848
   angles 0 77.321 0
  }
+}
+SCR_DestructibleBuildingEntity : "{FFDC9C8026E15E29}Prefabs/Structures/Industrial/Repair/RampVehicle_01/RampVehicle_01_concrete.et" {
+ coords 1299.762 -0.601 2950.94
+ angles 0 76 0
 }
